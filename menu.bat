@@ -53,6 +53,24 @@ if %opc%==5 goto star
 if %opc%==6 goto dos
 if %opc%==7 goto pind
 if %opc%==8 goto exitt
+:dos
+cls
+set /p ipp= Ip/host a hacer un ataque DoS:
+if %ipp% == %ipp% goto xdd
+
+:xdd 
+cls
+ping -t %ip%
+
+:pind
+cls
+set /p ippp= Ip/host a pingear:
+if %ippp% == %ippp% goto xddd
+
+:xddd 
+cls
+ping -l 65536 %ip%
+
 :exitt
 exit
 
