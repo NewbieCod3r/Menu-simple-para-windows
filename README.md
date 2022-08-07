@@ -1,5 +1,6 @@
 # Menu-simple-para-windows
 Un menú simple con hora, fecha y usuario
+<p>
 contiene 8 opciones, que son:
           * Ping de la muerte
           * Iniciar otro cmd
@@ -9,4 +10,4 @@ contiene 8 opciones, que son:
           * Ver configuracion de ip (ipconfig)
           * Hacer un ataque DoS desde cmd con ping -t
           * Salir
-          
+</p>
